@@ -1,0 +1,146 @@
+[
+  {
+    "name": "Abundant Life Services, LLC",
+    "address": "1830 Todds Lane, Hampton, VA 23666",
+    "city": "Hampton",
+    "state": "VA",
+    "zip": "23666",
+    "phone": "(757) 826-3222",
+    "website": "https://abundantlifeservicesllc.com/",
+    "services": {
+      "mentalHealthSkillBuilding": true,
+      "php": false,
+      "iop": false,
+      "communityStabilization": false,
+      "iih": false,
+      "substanceAbuse": true
+    },
+    "notes": "Provider #12360, Service Code 02-035"
+  },
+  {
+    "name": "Benevolent Family Services",
+    "address": "2018 Cunningham Drive, Hampton, VA 23666",
+    "city": "Hampton",
+    "state": "VA",
+    "zip": "23666",
+    "phone": "(757) 826-0100",
+    "website": "#",
+    "services": {
+      "mentalHealthSkillBuilding": true,
+      "php": false,
+      "iop": false,
+      "communityStabilization": false,
+      "iih": false,
+      "substanceAbuse": true
+    },
+    "notes": "Provider #2017, Service Codes 02-033, 02-035"
+  },
+  {
+    "name": "Hampton-Newport News Community Services Board",
+    "address": "300 Medical Drive, Hampton, VA 23666",
+    "city": "Hampton",
+    "state": "VA",
+    "zip": "23666",
+    "phone": "(757) 788-0300",
+    "website": "https://www.hnncsb.org",
+    "services": {
+      "mentalHealthSkillBuilding": true,
+      "php": true,
+      "iop": true,
+      "communityStabilization": true,
+      "iih": false,
+      "substanceAbuse": true
+    },
+    "notes": "Provider #019, Multiple service codes including 07-013, 07-014, 16-003, 04-015"
+  },
+  {
+    "name": "Riverside Mental Health & Recovery Center",
+    "address": "12420 Warwick Blvd, Hampton, VA 23666",
+    "city": "Hampton",
+    "state": "VA",
+    "zip": "23666",
+    "phone": "(757) 827-3119",
+    "website": "https://www.riversideonline.com/medical-services/behavioral-health",
+    "services": {
+      "mentalHealthSkillBuilding": true,
+      "php": false,
+      "iop": true,
+      "communityStabilization": false,
+      "iih": false,
+      "substanceAbuse": true
+    },
+    "notes": "Provider #2713, Service Codes 02-035, 04-015, 07-013, 02-033"
+  },
+  {
+    "name": "The Farley Center, Inc.",
+    "address": "5477 Mooretown Rd, Williamsburg, VA 23188",
+    "city": "Hampton",
+    "state": "VA",
+    "zip": "23666",
+    "phone": "(757) 280-1500",
+    "website": "https://farleycenter.com/",
+    "services": {
+      "mentalHealthSkillBuilding": true,
+      "php": false,
+      "iop": true,
+      "communityStabilization": false,
+      "iih": false,
+      "substanceAbuse": true
+    },
+    "notes": "Provider #4156, Service Code 02-035, Farley Center SA IOP-Genesis"
+  },
+  {
+    "name": "Trinity Family Services, LLC",
+    "address": "2018 Cunningham Drive, Hampton, VA 23666",
+    "city": "Hampton",
+    "state": "VA",
+    "zip": "23666",
+    "phone": "(757) 826-0100",
+    "website": "#",
+    "services": {
+      "mentalHealthSkillBuilding": false,
+      "php": false,
+      "iop": false,
+      "communityStabilization": false,
+      "iih": false,
+      "substanceAbuse": true
+    },
+    "notes": "Provider #1757, Service Code 07-013, Hampton Office and Main Office"
+  },
+  {
+    "name": "United Services of Virginia, LLC",
+    "address": "2101 Executive Drive, Hampton, VA 23661",
+    "city": "Hampton",
+    "state": "VA",
+    "zip": "23661",
+    "phone": "(757) 826-1800",
+    "website": "#",
+    "services": {
+      "mentalHealthSkillBuilding": true,
+      "php": false,
+      "iop": false,
+      "communityStabilization": false,
+      "iih": false,
+      "substanceAbuse": true
+    },
+    "notes": "Provider #7195, Service Codes 02-033, 02-035"
+  },
+  {
+    "name": "White House Health Systems",
+    "address": "1230 N King St, Hampton, VA 23669",
+    "city": "Hampton",
+    "state": "VA",
+    "zip": "23669",
+    "phone": "(757) 826-1800",
+    "website": "#",
+    "services": {
+      "mentalHealthSkillBuilding": true,
+      "php": false,
+      "iop": false,
+      "communityStabilization": false,
+      "iih": false,
+      "substanceAbuse": true
+    },
+    "notes": "Provider #2078, Service Codes 02-035, 02-036"
+  }
+]

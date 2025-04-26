@@ -2,11 +2,97 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Comprehensive directory of behavioral health providers in Hampton Roads, Virginia including Hampton, Newport News, Virginia Beach, Portsmouth, and Norfolk. Find mental health and substance abuse services.">
+    <meta name="keywords" content="behavioral health providers, Hampton Roads, mental health services, substance abuse treatment, Virginia, Hampton, Newport News, Virginia Beach, Portsmouth, Norfolk">
+    <meta name="author" content="Hampton Roads Behavioral Health">
+    <meta name="geo.region" content="US-VA">
+    <meta name="geo.placename" content="Hampton Roads">
+    <meta name="geo.position" content="36.9639;-76.3525">
+    <meta name="ICBM" content="36.9639, -76.3525">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:title" content="Hampton Roads Behavioral Health Providers Directory">
+    <meta property="og:description" content="Find mental health and substance abuse providers in Hampton Roads, Virginia including Hampton, Newport News, Virginia Beach, Portsmouth, and Norfolk.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://hamptonroadsbehavioralhealth.com">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://hamptonroadsbehavioralhealth.com">
+    
+    <title>Hampton Roads Behavioral Health Providers Directory</title>
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "HealthAndBeautyBusiness",
+      "name": "Hampton Roads Behavioral Health Providers Directory",
+      "description": "Comprehensive directory of behavioral health providers in Hampton Roads, Virginia including Hampton, Newport News, Virginia Beach, Portsmouth, and Norfolk.",
+      "url": "https://hamptonroadsbehavioralhealth.com",
+      "areaServed": {
+        "@type": "GeoCircle",
+        "geoMidpoint": {
+          "@type": "GeoCoordinates",
+          "latitude": "36.9639",
+          "longitude": "-76.3525"
+        },
+        "geoRadius": "50000"
+      },
+      "serviceType": ["Mental Health Skill Building", "Partial Hospitalization Program", "Intensive Outpatient Program", "Community Stabilization", "Intensive In-Home Services", "Substance Abuse Services"]
+    }
+    </script>
 </head>
 <body>
-    <h1>Welcome to My Website!</h1>
-    <p>This site is hosted on GitHub Pages.</p>
+    <header>
+        <h1>Hampton Roads Behavioral Health Providers</h1>
+        <p>Find mental health and substance abuse providers in Hampton, Newport News, Virginia Beach, Portsmouth, Norfolk and surrounding areas</p>
+    </header>
+    
+    <main>
+        <section class="filters">
+            <h2>Filter Providers by Services</h2>
+            <div class="filter-options">
+                <label>
+                    <input type="checkbox" id="filter-mhsb"> Mental Health Skill Building
+                </label>
+                <label>
+                    <input type="checkbox" id="filter-php"> Partial Hospitalization Program (PHP)
+                </label>
+                <label>
+                    <input type="checkbox" id="filter-iop"> Intensive Outpatient Program (IOP)
+                </label>
+                <label>
+                    <input type="checkbox" id="filter-cs"> Community Stabilization
+                </label>
+                <label>
+                    <input type="checkbox" id="filter-iih"> Intensive In-Home Services (IIH)
+                </label>
+                <label>
+                    <input type="checkbox" id="filter-sa"> Substance Abuse Services
+                </label>
+            </div>
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Search by name or location...">
+                <button id="search-button">Search</button>
+            </div>
+        </section>
+        
+        <section class="providers">
+            <h2>Providers in Hampton Roads</h2>
+            <div id="providers-count"></div>
+            <div id="providers-list"></div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Hampton Roads Behavioral Health Providers Directory. All rights reserved.</p>
+        <p>Serving Hampton, Newport News, Virginia Beach, Portsmouth, Norfolk and all of Hampton Roads, Virginia</p>
+        <p><a href="https://www.dbhds.virginia.gov/" target="_blank">Data sourced from Virginia Department of Behavioral Health and Developmental Services</a></p>
+    </footer>
+    
+    <script src="provider_data.json"></script>
+    <script src="script.js"></script>
 </body>
 </html>
-
